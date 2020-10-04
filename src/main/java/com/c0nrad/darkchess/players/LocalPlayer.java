@@ -22,7 +22,7 @@ public class LocalPlayer extends Player {
     @Override
     public Move GetMove(Board b) { 
         PrintBoard(b);
- 
+        //Comment
         Move m = new Move();
         
         while (true) {
